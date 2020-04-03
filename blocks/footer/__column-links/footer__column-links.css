@@ -1,0 +1,26 @@
+.footer__column-links {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  list-style: none;
+  margin: 20px 0 16px;
+  padding-left: 0;
+}
+
+.footer__column-link:link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__column-link:visited {
+  color: white;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
+  color: #2f80ed;
+}
+
+.footer__column-links:active {
+  color: #2f80ed;
+}
