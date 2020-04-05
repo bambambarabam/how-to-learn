@@ -5,6 +5,9 @@
   list-style: none;
   margin: 20px 0 16px;
   padding-left: 0;
+  color: white;
+  text-decoration: none;
+  transition: color 0.6s linear;
 }
 
 .footer__column-link:link {
@@ -12,12 +15,12 @@
   color: white;
 }
 
-.footer__column-link:visited {
+.footer__column-links:visited {
   color: white;
 }
 
-.footer__column-link:hover {
-  text-decoration: underline;
+.footer__column-links:hover {
+  text-decoration: none;
   color: #2f80ed;
 }
 
