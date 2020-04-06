@@ -8,7 +8,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 
 </head>
@@ -19,7 +18,7 @@
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <div class="header__main-illustration"></div>
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic animation"></div>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете
         использовать в своей жизни?
         <a href="#" class="header__link">Узнать &rarr;</a>
@@ -205,12 +204,12 @@
         <div class="khan__container">
           <h2 class="khan__author">Салман Хан</h2>
           <h3 class="khan__title">Весь мир - школа</h3>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
             миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
             смогут
             получить навыки и знания, которые приносят успех в школе, карьере и жизни.
-          </p>
-          <span class="khan__quote-author">Джордж Лукас</span>
+          </blockquote>
+          <p class="khan__quote-author">Джордж Лукас</p>
           <h3 class="khan__quote-author-subline">Кинорежиссер, продюсер</h3>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="images/book.jpg" alt="Обложка книги Салмана Хана.">
@@ -221,7 +220,7 @@
       </section>
 
       <section class="kaufman">
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle animation"></div>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
 
@@ -303,19 +302,29 @@
         <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения
         </h3>
 
-        <nav class="resources__logo-zone">
-          <a target="_blank" href="https://arzamas.academy/">
-            <img class="resources__logo" src="images/logo/arzamas.svg" alt="Сайт арзамаса.">
-          </a>
-          <a target="_blank" href="https://nplus1.ru/">
-            <img class="resources__logo" src="images/logo/n1.svg" alt="Сайт Эн плюс один.">
-          </a>
-          <a target="_blank" href="https://strelka.com/ru">
-            <img class="resources__logo" src="images/logo/strelka.svg" alt="Сайт стрелки.">
-          </a>
-          <a target="_blank" href="https://polka.academy/">
-            <img class="resources__logo" src="images/logo/polka.svg" alt="Сайт полки.">
-          </a>
+        <nav>
+          <ul class="resources__logo-zone">
+            <li>
+              <a target="_blank" href="https://arzamas.academy/">
+                <img class="resources__logo" src="images/logo/arzamas.svg" alt="Сайт арзамаса.">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://nplus1.ru/">
+                <img class="resources__logo" src="images/logo/n1.svg" alt="Сайт Эн плюс один.">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://strelka.com/ru">
+                <img class="resources__logo" src="images/logo/strelka.svg" alt="Сайт стрелки.">
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://polka.academy/">
+                <img class="resources__logo" src="images/logo/polka.svg" alt="Сайт полки.">
+              </a>
+            </li>
+          </ul>
         </nav>
 
       </section>
